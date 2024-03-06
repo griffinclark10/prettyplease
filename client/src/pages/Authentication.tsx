@@ -15,7 +15,7 @@ const Authentication: React.FC = () => {
     const handleSubmit = async (event: FormEvent) => {
         event.preventDefault();
 
-        // TODO: Add your authentication endpoint
+        // TODO: Add authentication endpoint
         const response = await fetch('YOUR_AUTHENTICATION_ENDPOINT', {
             method: 'POST',
             headers: {
